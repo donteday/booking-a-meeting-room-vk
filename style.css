@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: #141414;
+    font-family: 'Roboto', sans-serif;
+    color: #e1e3e6;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header__top {
+    text-align: center;
+    color: #71aaeb;
+    margin: 10px 0;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 500px;
+    gap: 10px;
+}
+
+.button {
+    padding: 10px;
+    background-color: #333333;
+    border: #e1e3e6 1px solid;
+    border-radius: 10px;
+    color: #e1e3e6;
+    transition: all .3s ease;
+}
+
+.button:hover {
+    background-color: #909090;
+}
+
+.form__block {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #333333;
+    border: 0.5px solid #424242;
+    border-radius: 10px;
+}
