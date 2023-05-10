@@ -2,7 +2,8 @@ const floorList = document.querySelector(".floor");
 const roomList = document.querySelector(".room");
 const result = document.querySelector(".result");
 const date = document.querySelector(".date");
-const time = document.querySelector(".time");
+const timeStart = document.querySelector(".time__start");
+const timeEnd = document.querySelector(".time__end");
 const towerList = document.querySelector(".tower");
 const select = document.getElementsByTagName("select");
 
@@ -36,7 +37,7 @@ function updateResult() {
     result.innerHTML = `Вы хотите забронировать переговорную в башне "${towerList.value}"
     <br>${floorList.value} этаж
     <br>Комната #${roomList.value}
-    <br>${date.value} ${time.value}
+    <br>${date.value} c ${timeStart.value} по ${timeEnd.value}
     <br>Статус: свободно`;
 }
 
