@@ -47,7 +47,8 @@ document.querySelector('.button__accept').addEventListener('click', function () 
         floor: document.querySelector(".floor").value,
         room: document.querySelector(".room").value,
         date: document.querySelector(".date").value,
-        time: document.querySelector(".time").value,
+        timeStart: document.querySelector(".time__start").value,
+        timeEnd: document.querySelector(".time__end").value,
         comment: document.querySelector(".comment").value
     };
     console.log(JSON.stringify(formData));
