@@ -38,6 +38,7 @@
     border-radius: 10px;
     color: #e1e3e6;
     transition: all .3s ease;
+    font-size: 18px;
 }
 
 .button__clear {
@@ -47,12 +48,19 @@
 }
 
 .button:hover {
+    cursor: pointer;
     background-color: #909090;
+}
+
+.button__clear:hover {
+    color: #8e8e8e;
+    background-color: transparent;
 }
 
 .form__block {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px;
     background-color: #333333;
     border: 0.5px solid #424242;
@@ -60,7 +68,16 @@
 }
 
 select, input {
+    border: 0.5px solid #424242;
     border-radius: 5px;
-    background-color: #dedede;
+    background-color: #cfcfcf;
     padding: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.result {
+    padding: 10px;
+    background-color: #222222;
+    border: 0.5px solid #424242;
+    border-radius: 10px;
 }
