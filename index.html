@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BookingVK</title>
+</head>
+
+<body class="body">
+    <div class="container">
+        <header class="header">
+        <h1 class="header__top">booking-room-VK</h1>
+    </header>
+    </div>
+
+    <form class="booking-form">
+        <div class="form__block">
+            <label for="building">Башня:</label>
+            <select class="tower" onchange="updateResult()">
+                <option value="A">А</option>
+                <option value="B">Б</option>
+            </select>
+        </div>
+
+        <div class="form__block">
+            <label for="floor">Этаж:</label>
+            <select class="floor"></select>
+        </div>
+        <div class="form__block"> <label for="room">Переговорная:</label>
+            <select class="room"></select>
+        </div>
+        <div class="form__block">
+            <label for="date">Дата:</label>
+            <input class="date" type="date"  name="date">
+        </div>
+        <div class="form__block">
+            <label for="time">Время:</label>
+            <input class="time" type="time" name="time">
+        </div>
+        <div class="form__block">
+            <label for="comment">Комментарий:</label>
+            <input class="comment" type="text" id="comment" name="comment">
+        </div>
+        <div class="result"></div>
+
+        <button class="button button__accept" type="button">Отправить</button>
+        <button class="button button__clear" type="reset">Очистить</button>
+    </form>
+    <script src="src/index.js"></script>
+</body>
+
+</html>

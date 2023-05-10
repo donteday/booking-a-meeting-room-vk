@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: #141414;
+    font-family: 'Roboto', sans-serif;
+    color: #e1e3e6;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header__top {
+    text-align: center;
+    color: #71aaeb;
+    margin: 10px 0;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 500px;
+    gap: 10px;
+}
+
+.button {
+    padding: 10px;
+    background-color: #333333;
+    border: #e1e3e6 1px solid;
+    border-radius: 10px;
+    color: #e1e3e6;
+    transition: all .3s ease;
+    font-size: 18px;
+}
+
+.button__clear {
+    background-color: transparent;
+    border: none;
+    color: #707070;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #909090;
+}
+
+.button__clear:hover {
+    color: #8e8e8e;
+    background-color: transparent;
+}
+
+.form__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333333;
+    border: 0.5px solid #424242;
+    border-radius: 10px;
+}
+
+select, input {
+    border: 0.5px solid #424242;
+    border-radius: 5px;
+    background-color: #cfcfcf;
+    padding: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.result {
+    padding: 10px;
+    background-color: #222222;
+    border: 0.5px solid #424242;
+    border-radius: 10px;
+}
